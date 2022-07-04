@@ -1,0 +1,33 @@
+{
+  "name": "chat-me-application",
+  "version": "1.0.0",
+  "description": "Chat application built with HTML/CSS/JavaScript, Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThyTran1402/Chat-Me-Application.git"
+  },
+  "keywords": [
+    "chat application",
+    "socket.io",
+    "node",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Thy Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThyTran1402/Chat-Me-Application/issues"
+  },
+  "homepage": "https://github.com/ThyTran1402/Chat-Me-Application#readme",
+  "dependencies": {
+    "concurrently": "^7.2.2",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18",
+    "socket.io": "^4.5.1"
+  }
+}

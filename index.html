@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Me Application</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div id="appContainer" class = "flex-column"></div>
+
+    <header>
+        <div class = "container flex-column flex-center">
+            <h1>Chat Me</h1>
+            <p class = "light-text">Let start our conversation in the easiest way</p>
+        </div>
+    </header>
+
+    <div id="mainContent" class = 'container flex-grow-1 flex-column'>
+        <section id="login" class = "hidden">
+            <h2 class = "text-center">Get Started Here</h2>
+            <form action="" id="loginForm" class = "flex">
+                <input type="text" name="username" class="flex flex-grow-1" id="usernameInput" placeholder="username">
+                <button id="loginBtn">Click me</button>
+            </form>
+        </section>
+
+        <section id="chat" class = " flex-grow-1 flex-column">
+            <!-- <div id="messagesList" class="flex-grow-1">
+                <div class = "message message-left">
+                    <div id="message-detail" class="flex">
+                        <p class="message-author">Thy Tran</p>
+                        <p class="message-date">6/25/2022</p>
+                    </div>
+                    <p class="message-content">Who are you? Tell me a little bit about yourself</p>
+                </div>
+                <div class = "message messsage-right">
+                    <div id="message-detail" class="flex">
+                        <p class="message-author"></p>
+                        <p class="message-date">6/25/2022</p>
+                    </div>
+                </div>
+                <p class="secondary-text text-center mb-2">Thy Tran has joined the chat...</p>
+            </div> -->
+
+            <from id="messagesForm" class="'flex mb-2">
+                <input type="text" name="message" class="'flex flex-grow-1" id="messageInput" placeholder = "Enter a message">
+                <button id="sendBtn">Send</button>
+
+            </from>
+        </section>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.0/socket.io.min.js"></script>
+    <script> src = "app.js"</script>
+</body>
+</html>
